@@ -1,0 +1,22 @@
+server:
+  port: 8002
+  
+zuul:
+    routes:
+     Admin-MS:
+      url: http://localhost:8080
+     Crop-MS:
+      url: http://localhost:8082
+     Dealer-MS:
+      url: http://localhost:8084
+     Farmer-MS:
+      url: http://localhost:8086
+     LoginService:
+      url: http://localhost:8088
+     Payment-MS:
+      url: http://localhost:8090
+      
+     
+       
+
+     
